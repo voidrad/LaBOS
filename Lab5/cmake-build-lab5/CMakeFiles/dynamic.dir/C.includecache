@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sam/Lab5/dynamic.c
+functions.h
+/home/sam/Lab5/functions.h
+stdio.h
+-
+stdlib.h
+-
+dlfcn.h
+-
+
+/home/sam/Lab5/functions.h
+

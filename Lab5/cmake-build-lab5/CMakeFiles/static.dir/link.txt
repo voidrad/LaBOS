@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/static.dir/static.c.o -o static  -Wl,-rpath,/home/sam/Lab5/cmake-build-lab5 liblib1.so -lm 

@@ -1,0 +1,6 @@
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/rebuild_cache.dir
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/edit_cache.dir
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/static.dir
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/lib2.dir
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/dynamic.dir
+/home/sam/Lab5/cmake-build-lab5/CMakeFiles/lib1.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sam/Lab5/function2.c
+functions.h
+/home/sam/Lab5/functions.h
+math.h
+-
+
+/home/sam/Lab5/functions.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,liblib2.so -o liblib2.so CMakeFiles/lib2.dir/function2.c.o  -lm 

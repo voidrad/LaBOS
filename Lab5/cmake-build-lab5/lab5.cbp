@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 static"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static/fast">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 static/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib2">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/liblib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 lib2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib2/fast">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/liblib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 lib2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 dynamic"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic/fast">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 dynamic/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib1">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/liblib1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 lib1"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib1/fast">
+				<Option output="/home/sam/Lab5/cmake-build-lab5/liblib1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sam/Lab5/cmake-build-lab5"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 lib1/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sam/Lab5/cmake-build-lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sam/Lab5/dynamic.c">
+			<Option target="dynamic"/>
+		</Unit>
+		<Unit filename="/home/sam/Lab5/function1.c">
+			<Option target="lib1"/>
+		</Unit>
+		<Unit filename="/home/sam/Lab5/function2.c">
+			<Option target="lib2"/>
+		</Unit>
+		<Unit filename="/home/sam/Lab5/static.c">
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="/home/sam/Lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
